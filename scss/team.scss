@@ -1,0 +1,233 @@
+/*HEADER*/
+.header {
+    font-family: Montserrat;
+
+    .menu__info {
+        color: #B3B3BA;
+    
+        .language {
+            color: #B3B3BA;
+        }
+        .language:hover {
+            background: #F5F5FA;
+        }
+    
+        #uk:checked ~ .uk {color: white;}
+        #ru:checked ~ .ru {color: white;}
+        #en:checked ~ .en {color: white;}
+    }
+}
+
+.menu__link {
+    color: #24A3FF;
+}
+
+.menu__link::after {
+    background-color: #24A3FF;
+}
+
+.active {
+    color: #F0145A;
+}
+
+.active::after {
+    width: 100%;
+}
+
+.active::after {
+    background-color: #F0145A;
+}
+
+.main-head {
+    background: #F5F5FA;
+    color: #B3B3BA;
+
+    .language {
+        color: #B3B3BA;
+    }
+
+    #uk:checked ~ .uk {color: white;}
+    #ru:checked ~ .ru {color: white;}
+    #en:checked ~ .en {color: white;}
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 2px;
+    background-color: #323264;
+    transition-duration: .25s;
+}
+
+.menu__btn:active {
+    background-color: #E6E6F0;
+    border-radius: 8px;
+}
+/*HEADER AND*/
+
+
+
+/*TEAM*/
+.team {
+    padding: 30px;
+    font-family: Montserrat;
+
+    .team__title {
+        margin-bottom: 30px;
+        line-height: 37px;
+    }
+
+    .team__column {
+        margin-bottom: 30px;
+
+        .team__image {
+            background-position: center;
+            background-size: cover;
+            height: 300px;
+            width: 100%;
+            border-radius: 12px;
+        }
+        @media (min-width:475px) {
+            .team__image {
+                height: 500px;
+            }
+        }
+        @media (min-width:768px) {
+            .team__image {
+                height: 400px;
+            }
+        }
+
+        .image1 {
+            background-image: url('../img/Team-photos/Alexander-Alexandrovsky.png');
+        }
+        .image2 {
+            background-image: url('../img/Team-photos/Evgeny\ Patrikov.jpg');
+        }
+        .image3 {
+            background-image: url('../img/Team-photos/Vladislav\ Melnik.jpg');
+        }
+        .image4 {
+            background-image: url('../img/Team-photos/Sergey\ Binn.jpg');
+        }
+        .image5 {
+            background-image: url('../img/Team-photos/Oksana\ Kobzar.jpg');
+        }
+        .image6 {
+            background-image: url('../img/Team-photos//Julia\ Wolk.jpg');
+        }
+    
+        .team__item {
+            display: flex;
+            justify-content: space-between;
+    
+            .team__info {
+                margin-top: 15px;
+    
+                .team__name {
+                    color: #323264;
+                    font-weight: 700;
+                    margin-bottom: 5px;
+
+                    &:hover {
+                        color: #F0145A;
+                    }
+                }
+    
+                .team__profession {
+                    color: #B3B3BA;
+                    font-size: 14px;
+                }
+            }
+    
+            .team__button {
+                margin-top: 15px;
+                transform: rotate(0deg);
+
+                &:hover path {
+                    stroke: #F0145A;
+                }
+
+                &>circle:hover {
+                    fill:  #EDEDF7;
+                }
+            }
+            .team__button:active {
+                transform: rotate(-90deg);
+                transition: 0.1s;
+            }
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .team__title {
+            margin: 60px 30px;
+            font-size: 38px;
+            line-height: 46px;
+        }
+
+        .team__column {
+            width: 40%;
+            flex: 1 1 auto;
+            margin: 0 30px 30px 30px;
+        }
+    }
+    @media (min-width: 1024px) and (max-width: 1919px) {
+        .team__title {
+            margin: 0 150px;
+            font-size: 38px;
+            line-height: 46px;
+        }
+
+        .team__column {
+            width: 25%;
+            flex: 1 1 auto;
+            margin: 0 30px 30px 30px;
+        }
+    }
+    @media (min-width: 1920px) {
+        .team__title {
+            margin: 0 250px;
+            font-size: 38px;
+            line-height: 46px;
+        }
+
+        .team__columns {
+            padding: 0 130px;
+
+            .team__column {
+                width: 25%;
+                flex: 1 1 auto;
+                margin: 0 30px 30px 30px;
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        .team__columns {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media (min-width: 768px) {
+    .team {
+        padding: 0 30px 30px 30px;
+
+        .team__title {
+            margin-bottom: 60px;
+        }
+    }
+}
+
+
+/*FOTTER*/
+.footer, .footer-768, .footer-mobile {
+    padding: 30px;
+}
+
+.footer {
+    height: auto;
+}

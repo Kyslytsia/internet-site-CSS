@@ -1,0 +1,254 @@
+/*HEADER*/
+.header {
+  font-family: Montserrat;
+}
+.header .menu__info {
+  color: #B3B3BA;
+}
+.header .menu__info .language {
+  color: #B3B3BA;
+}
+.header .menu__info .language:hover {
+  background: #F5F5FA;
+}
+.header .menu__info #uk:checked ~ .uk {
+  color: white;
+}
+.header .menu__info #ru:checked ~ .ru {
+  color: white;
+}
+.header .menu__info #en:checked ~ .en {
+  color: white;
+}
+
+.menu__link {
+  color: #24A3FF;
+}
+
+.menu__link::after {
+  background-color: #24A3FF;
+}
+
+.active {
+  color: #F0145A;
+}
+
+.active::after {
+  background-color: #F0145A;
+}
+
+.active::after {
+  width: 100%;
+}
+
+.main-head {
+  background: #F5F5FA;
+  color: #B3B3BA;
+}
+.main-head .language {
+  color: #B3B3BA;
+}
+.main-head #uk:checked ~ .uk {
+  color: white;
+}
+.main-head #ru:checked ~ .ru {
+  color: white;
+}
+.main-head #en:checked ~ .en {
+  color: white;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 22px;
+  height: 2px;
+  background-color: #323264;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+
+.menu__btn:active {
+  background-color: #E6E6F0;
+  border-radius: 8px;
+}
+
+.menu__box {
+  border: 1px solid #B3B3BA;
+}
+
+/*HEADER AND*/
+/*OKSANA*/
+.oksana {
+  padding: 30px;
+  font-family: Montserrat;
+}
+.oksana .oksana__image {
+  background-image: url("../img/Team-photos/Oksana Kobzar.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 375px;
+  border-radius: 12px;
+}
+@media (min-width: 475px) {
+  .oksana .oksana__image {
+    height: 500px;
+  }
+}
+.oksana .oksana__title {
+  margin: 30px 0 15px 0;
+}
+.oksana .oksana__profassion {
+  color: #B3B3BA;
+  font-size: 14px;
+}
+.oksana .oksana__email,
+.oksana .oksana__linked-profile {
+  color: #24A3FF;
+  text-decoration: none;
+}
+.oksana .oksana__line {
+  height: 4px;
+  width: 100%;
+  background-color: #E6E6F0;
+  margin: 30px 0;
+}
+.oksana .oksana__text {
+  line-height: 26px;
+}
+.oksana .h3 {
+  color: #323264;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 30px 0 15px 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .oksana {
+    display: none;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .oksana {
+    padding: 0 60px 60px 60px;
+  }
+  .oksana .oksana__conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .oksana .oksana__conteiner .oksana__image {
+    height: 375px;
+    width: 300px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+  }
+  .oksana .oksana__conteiner .oksana__info {
+    width: 544px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    margin-left: 60px;
+  }
+  .oksana .oksana__conteiner .oksana__info .oksana__title {
+    margin-top: 0;
+  }
+}
+@media (min-width: 1440px) {
+  .oksana {
+    padding: 0 180px 60px 180px;
+  }
+  .oksana .oksana__conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .oksana .oksana__conteiner .oksana__image {
+    height: 500px;
+    width: 400px;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+  }
+  .oksana .oksana__conteiner .oksana__info {
+    width: 620px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    margin-left: 60px;
+  }
+  .oksana .oksana__conteiner .oksana__info .oksana__title {
+    margin-top: 0;
+  }
+  .oksana .oksana__conteiner .oksana__info .oksana__info-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 20px;
+  }
+  .oksana .oksana__conteiner .oksana__info .oksana__info-block .oksana__email::before,
+.oksana .oksana__conteiner .oksana__info .oksana__info-block .oksana__linked-profile::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: #E6E6F0;
+    margin: 0 10px;
+  }
+}
+@media (min-width: 1920px) {
+  .oksana {
+    padding: 0 280px 60px 280px;
+  }
+  .oksana .oksana__info-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 20px;
+  }
+}
+/*OKSANA_768px*/
+.oksana-768px {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .oksana-768px {
+    display: block;
+    padding: 60px;
+  }
+  .oksana-768px .oksana__conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .oksana-768px .oksana__conteiner .oksana__image {
+    width: 300px;
+    height: 375px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+  }
+  .oksana-768px .oksana__conteiner .oksana__info {
+    width: 310px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    margin: 80px 0 0 30px;
+  }
+}
+/*OKSANA-768px END*/
+/*FOTTER*/
+.footer, .footer-768, .footer-mobile {
+  padding: 30px;
+}
+
+.footer {
+  height: auto;
+}

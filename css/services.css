@@ -1,0 +1,220 @@
+.background {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  border-radius: 0px 0px 12px 12px;
+}
+.background .active {
+  color: #F0145A;
+}
+.background .active::after {
+  width: 100%;
+}
+.background .active::after {
+  background-color: #F0145A;
+}
+.background .burger > svg > path {
+  stroke: white;
+}
+.background .servises {
+  font-family: Montserrat;
+}
+.background .servises .servises__title {
+  margin: 40px 0 60px 30px;
+}
+@media (max-width: 767px) {
+  .background .servises .servises__title {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .background .servises .servises__title {
+    margin: 59px 0 60px 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .background .servises .servises__title {
+    margin: 0 0 60px 30px;
+  }
+}
+.background .servises .services__columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+.background .servises .services__columns .services__column {
+  line-height: 26px;
+  padding: 0 30px 30px 30px;
+  margin-bottom: 30px;
+}
+.background .servises .services__columns .services__column > object {
+  margin-bottom: 30px;
+}
+.background .servises .services__columns .services__column > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 15px;
+}
+.background .servises .services__columns .services__column > a {
+  line-height: 27px;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.background .servises .services__columns .services__column > a:hover {
+  color: #F0145A;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .background .servises {
+    padding: 0 30px;
+  }
+  .background .servises .services__column {
+    width: 294px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 40%;
+            flex: 1 1 40%;
+    padding: 0 30px;
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .background .servises {
+    padding: 0 30px;
+  }
+  .background .servises .services__column {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 25%;
+            flex: 1 1 25%;
+  }
+}
+@media (min-width: 1920px) {
+  .background .servises {
+    padding: 0 130px;
+  }
+}
+
+.background-line > p {
+  text-transform: uppercase;
+  color: #323264;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Montserrat;
+  text-align: center;
+  padding: 60px 0 30px 0;
+}
+
+.partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.partners .partners__block {
+  width: 25%;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.partners .hillel {
+  background-color: #1C4280;
+}
+.partners .wannabiz {
+  background-color: #143646;
+}
+.partners .tapgerine {
+  background-color: #F48B30;
+}
+.partners .look {
+  background-color: #9E4DC3;
+}
+.partners .orangear {
+  background-color: #FD9339;
+}
+.partners .adtallige {
+  background-color: #E2E2E4;
+}
+.partners .clickky {
+  background-color: #C71C36;
+}
+.partners .ecoleasing {
+  background: #DCF3F9;
+}
+.partners .infratec {
+  background-color: #EAEAEA;
+}
+.partners .citypark {
+  background-color: #282240;
+}
+.partners .artprint {
+  background-color: #1D4568;
+}
+.partners .ultimatecard {
+  background-color: #000000;
+}
+@media (max-width: 767px) {
+  .partners .partners__block {
+    width: 100%;
+  }
+  .partners .adtallige {
+    display: none;
+  }
+  .partners .clickky {
+    display: none;
+  }
+  .partners .ecoleasing {
+    display: none;
+  }
+  .partners .infratec {
+    display: none;
+  }
+  .partners .citypark {
+    display: none;
+  }
+  .partners .artprint {
+    display: none;
+  }
+  .partners .ultimatecard {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .partners .partners__block {
+    -webkit-box-flex: 33.333%;
+        -ms-flex: 33.333%;
+            flex: 33.333%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .partners {
+    padding: 0 100px;
+    margin-bottom: 60px;
+  }
+  .partners .hillel {
+    border-radius: 12px 0 0 0;
+  }
+  .partners .look {
+    border-radius: 0 12px 0 0;
+  }
+  .partners .infratec {
+    border-radius: 0 0 0 12px;
+  }
+  .partners .ultimatecard {
+    border-radius: 0 0 12px 0;
+  }
+}
+.footer-768, .footer-mobile {
+  padding-top: 30px;
+}

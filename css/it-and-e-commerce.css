@@ -1,0 +1,421 @@
+.background {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  border-radius: 0px 0px 12px 12px;
+  font-family: Montserrat;
+}
+.background .active {
+  color: #F0145A;
+}
+.background .active::after {
+  background-color: #F0145A;
+}
+.background .active::after {
+  width: 100%;
+}
+.background .burger > svg > path {
+  stroke: white;
+}
+.background .intro {
+  text-align: center;
+  padding: 40px 30px 0 30px;
+  color: white;
+}
+.background .intro .intro__title {
+  margin: 28px 0;
+  font-size: 30px;
+}
+.background .intro > p {
+  font-size: 19px;
+  margin-bottom: 28px;
+  line-height: 30px;
+}
+.background .intro .intro__button {
+  margin-bottom: 0;
+}
+.background .intro .button:hover {
+  background-color: #0085FF;
+  -webkit-box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+          box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+}
+.background .intro .button:active {
+  background-color: #006CCF;
+  -webkit-box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+          box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+}
+.background .intro .intro__modal-window {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 99;
+  padding: 30px 0;
+  background-color: rgba(50, 50, 100, 0.7);
+  visibility: hidden;
+}
+.background .intro .intro__modal-window .intro__form {
+  padding: 30px;
+  background-color: #F5F5FA;
+  border-radius: 12px;
+  min-width: 375px;
+  max-width: 650px;
+  height: 615px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  opacity: 10;
+}
+.background .intro .intro__modal-window .intro__form > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+.background .intro .intro__modal-window .intro__form > div .button-close {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  background-image: url("../svg/button-close.svg");
+  position: absolute;
+  right: 0;
+}
+.background .intro .intro__modal-window .intro__form > div .button-close:hover {
+  background-color: #E6E6F0;
+  border-radius: 8px;
+}
+.background .intro .intro__modal-window .intro__form > div > h1 {
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.background .intro .intro__modal-window .intro__form .name {
+  width: 100%;
+  height: 56px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  border: white;
+  padding-left: 15px;
+  margin: 30px 0 15px 0;
+}
+.background .intro .intro__modal-window .intro__form .messege {
+  width: 100%;
+  height: 130px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  border: none;
+  padding: 15px 0 0 15px;
+}
+.background .intro .intro__modal-window .intro__form .contact__grey-text {
+  color: #B3B3BA;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 30px 0 15px 0;
+}
+.background .intro .intro__modal-window .intro__form .contact__phone-number {
+  width: 100%;
+  height: 56px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  border: white;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+.background .intro .intro__modal-window .intro__form .email {
+  width: 100%;
+  height: 56px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  border: white;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+.background .intro .intro__modal-window .intro__form .name::-webkit-input-placeholder, .background .intro .intro__modal-window .intro__form .messege::-webkit-input-placeholder, .background .intro .intro__modal-window .intro__form .email::-webkit-input-placeholder, .background .intro .intro__modal-window .intro__form .contact__phone-number::-webkit-input-placeholder {
+  color: #B3B3BA;
+}
+.background .intro .intro__modal-window .intro__form .name::-moz-placeholder, .background .intro .intro__modal-window .intro__form .messege::-moz-placeholder, .background .intro .intro__modal-window .intro__form .email::-moz-placeholder, .background .intro .intro__modal-window .intro__form .contact__phone-number::-moz-placeholder {
+  color: #B3B3BA;
+}
+.background .intro .intro__modal-window .intro__form .name:-ms-input-placeholder, .background .intro .intro__modal-window .intro__form .messege:-ms-input-placeholder, .background .intro .intro__modal-window .intro__form .email:-ms-input-placeholder, .background .intro .intro__modal-window .intro__form .contact__phone-number:-ms-input-placeholder {
+  color: #B3B3BA;
+}
+.background .intro .intro__modal-window .intro__form .name::-ms-input-placeholder, .background .intro .intro__modal-window .intro__form .messege::-ms-input-placeholder, .background .intro .intro__modal-window .intro__form .email::-ms-input-placeholder, .background .intro .intro__modal-window .intro__form .contact__phone-number::-ms-input-placeholder {
+  color: #B3B3BA;
+}
+.background .intro .intro__modal-window .intro__form .name::placeholder,
+.background .intro .intro__modal-window .intro__form .messege::placeholder,
+.background .intro .intro__modal-window .intro__form .email::placeholder,
+.background .intro .intro__modal-window .intro__form .contact__phone-number::placeholder {
+  color: #B3B3BA;
+}
+.background .intro .intro__modal-window .intro__form .name:focus,
+.background .intro .intro__modal-window .intro__form .messege:focus,
+.background .intro .intro__modal-window .intro__form .email:focus,
+.background .intro .intro__modal-window .intro__form .contact__phone-number:focus {
+  border: 1px solid #24A3FF;
+  outline: none;
+}
+.background .intro .intro__modal-window .intro__form .contact__button {
+  width: 100%;
+}
+.background .intro .intro__modal-window .intro__form .contact__button:hover {
+  background: #0085FF;
+  -webkit-box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+          box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+}
+.background .intro .intro__modal-window .intro__form .contact__button:active {
+  background: #006CCF;
+  -webkit-box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+          box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+}
+@media (min-width: 518px) {
+  .background .intro .intro__modal-window .intro__form {
+    height: 579px;
+  }
+}
+.background .intro #intro__modal-window:checked ~ .intro__modal-window {
+  visibility: visible;
+}
+.background .intro #intro__modal-window-close:checked ~ .intro__modal-window {
+  visibility: hidden;
+}
+.background .intro .intro__modal-window::-webkit-scrollbar {
+  display: none;
+}
+.background .intro .intro__modal-window::-moz-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+@media (min-width: 768px) and (max-width: 1439px) {
+  .background .intro {
+    padding: 60px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .background .intro {
+    padding: 60px 180px;
+  }
+}
+@media (min-width: 1920px) {
+  .background .intro {
+    padding: 60px 280px;
+  }
+}
+.background .columns {
+  padding: 30px;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.background .columns .columns__line {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.background .columns .columns__title {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 30px 0;
+}
+.background .columns .columns__column {
+  margin-bottom: 30px;
+}
+.background .columns .columns__column .columns__list .columns__text {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+.background .columns .columns__column .columns__list .columns__text::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #f0145a;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+@media (min-width: 768px) {
+  .background .columns {
+    padding: 0 60px 30px 60px;
+  }
+  .background .columns .columns__conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .background .columns .columns__conteiner .columns__column {
+    width: 45%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+  }
+  .background .columns .columns__conteiner .columns__column1 {
+    margin-right: 30px;
+  }
+  .background .columns .columns__conteiner .columns__column2 {
+    margin-left: 30px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .background .columns {
+    padding: 0 180px 60px 180px;
+  }
+}
+@media (min-width: 1920px) {
+  .background .columns {
+    padding: 0 280px 60px 280px;
+  }
+}
+
+/*PUBLICATIONS*/
+.publications {
+  padding: 30px 30px 0 30px;
+  margin-top: 60px;
+  border-radius: 12px 12px 0 0;
+  background-color: #F5F5FA;
+  font-family: Montserrat;
+}
+.publications .publications__link {
+  margin: 0 0 10px 15px;
+}
+.publications .publications__link:hover {
+  color: #F0145A;
+}
+.publications .publications__link:hover:hover .svg {
+  stroke: #F0145A;
+}
+.publications .publications__title {
+  margin: 0 0 30px 15px;
+  font-size: 30px;
+}
+.publications .publications__colmns {
+  background-color: #F5F5FA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.publications .publications__colmns .publications__colmn {
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: #FFFFFF;
+  border-radius: 8px 8px 0px 0px;
+}
+.publications .publications__colmns .publications__colmn .publications__image {
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px 8px 0px 0px;
+}
+.publications .publications__colmns .publications__colmn .publications__image1 {
+  background-image: url(../img/Publications/Publication-1.jpg);
+}
+.publications .publications__colmns .publications__colmn .publications__image2 {
+  background-image: url(../img//Publications/Publication-2.jpg);
+}
+.publications .publications__colmns .publications__colmn .publications__image3 {
+  background-image: url(../img/Publications/Publication-3.jpg);
+}
+.publications .publications__colmns .publications__colmn .publications__info {
+  padding: 30px;
+}
+.publications .publications__colmns .publications__colmn .publications__info > a:hover {
+  color: #F0145A;
+}
+.publications .publications__colmns .publications__colmn .publications__info .publications__date {
+  font-size: 12px;
+  font-weight: 700;
+  color: #B3B3BA;
+  margin: 15px 0;
+}
+.publications .publications__colmns .publications__colmn .publications__info .publications__line {
+  width: 100%;
+  height: 4px;
+  background: #E6E6F0;
+  margin-bottom: 15px;
+}
+.publications .publications__colmns .publications__colmn .publications__info .publications__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .publications .publications__colmns .publications__colmn1 {
+    margin-bottom: 30px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 45%;
+            flex: 1 1 45%;
+  }
+  .publications .publications__colmns .publications__colmn2 {
+    margin-bottom: 30px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 45%;
+            flex: 1 1 45%;
+  }
+  .publications .publications__colmns .publications__colmn3 {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .publications .publications__colmns .publications__colmn {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 1023px) {
+  .publications .publications__colmns {
+    background-color: #F5F5FA;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .publications {
+    padding: 30px 45px 0 45px;
+  }
+  .publications .publications__colmn {
+    margin: 0 15px;
+  }
+}
+@media (min-width: 1920px) {
+  .publications {
+    padding: 30px 145px;
+  }
+}

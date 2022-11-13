@@ -1,0 +1,324 @@
+/*HEADER*/
+.header {
+    font-family: Montserrat;
+
+    .menu__info {
+        color: #B3B3BA;
+    
+        .language {
+            color: #B3B3BA;
+        }
+        .language:hover {
+            background: #F5F5FA;
+        }
+    
+        #uk:checked ~ .uk {color: white;}
+        #ru:checked ~ .ru {color: white;}
+        #en:checked ~ .en {color: white;}
+    }
+}
+
+.menu__link {
+    color: #24A3FF;
+}
+
+.menu__link::after {
+    background-color: #24A3FF;
+}
+
+.active {
+    color: #F0145A;
+}
+
+.active::after {
+    background-color: #F0145A;
+}
+
+.active::after {
+    width: 100%;
+}
+
+.main-head {
+    background: #F5F5FA;
+    color: #B3B3BA;
+
+    .language {
+        color: #B3B3BA;
+    }
+
+    #uk:checked ~ .uk {color: white;}
+    #ru:checked ~ .ru {color: white;}
+    #en:checked ~ .en {color: white;}
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 2px;
+    background-color: #323264;
+    transition-duration: .25s;
+}
+
+.menu__btn:active {
+    background-color: #E6E6F0;
+    border-radius: 8px;
+}
+
+.menu__box {
+    border: 1px solid #B3B3BA;
+}
+/*HEADER AND*/
+
+
+/*GDPR*/
+.gdpr {
+    padding: 40px 30px 60px 30px;
+    font-family: Montserrat;
+
+    .gdpr__image {
+        height: 300px;
+        background-image: url(../img/Publications/Publication-2.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 12px;
+    }
+    @media (min-width: 768px) {
+        .gdpr__image {
+            height: 500px;
+            background-image: url('../img/Publications/image904px.png');
+        }
+    }
+
+    .h2 {
+        margin: 30px 0;
+        font-size: 20px;
+        font-weight: 700;
+        color: #323264;
+        line-height: 24px;
+    }
+
+    .gdpr__date {
+        font-size: 12px;
+        font-weight: 700;
+        color: #B3B3BA;
+    }
+
+    .gdpr__line {
+        height: 4px;
+        width: 100%;
+        background-color: #E6E6F0;
+        margin: 30px 0;
+    }
+
+    &>p {
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+
+    .h3 {
+        color: #46466E;
+        line-height: 20px;
+        font-weight: 700;
+        margin: 30px 0;
+    }
+    .ol {
+        box-sizing: border-box;
+        margin-left: 23px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 26px;
+
+        &>li:first-child {
+            margin-bottom: 15px;
+        }
+        &>li:first-child::before {
+            content: '1.';
+            color: #F0145A;
+            margin-right: 10px;
+        }
+
+        &>li:last-child {
+            margin-bottom: 30px;
+        }
+        &>li:last-child::before {
+            content: '2.';
+            color: #F0145A;
+            margin-right: 10px;
+        }
+    }
+
+    .gdpr__img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    @media (min-width: 768px) {
+        .gdpr__img {
+            display: block;
+            margin: 0 auto;
+            height: 398px;
+            width: 640px;
+        }
+    }
+    .gdpr__grey-text {
+        text-align: center;
+        font-size: 14px;
+        color: #B3B3BA;
+        margin: 15px 0 30px 0;
+    }
+
+    .gdpr__icon-network {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 155px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .gdpr {
+        padding: 60px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .gdpr {
+        padding: 0 60px 60px 60px;
+    }
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .gdpr {
+        padding: 0 180px 60px 180px;
+    }
+}
+@media (min-width: 1920px) {
+    .gdpr {
+        padding: 0 280px 60px 280px;
+    }
+}
+
+
+/*PUBLICATIONS*/
+.publications {
+    padding: 30px 30px 0 30px;
+    background-color: #F5F5FA;
+    font-family: Montserrat;
+
+    .publications__link {
+        margin: 0 0 10px 15px; 
+
+        &:hover {
+        color: #F0145A;
+
+            &:hover .svg {
+                stroke: #F0145A;
+            }  
+        }
+    }   
+
+    .publications__title {
+        margin: 0 0 30px 15px;
+        font-size: 30px;
+    }
+
+    .publications__colmns {
+        background-color: #F5F5FA;
+        display: flex;
+        justify-content: space-between;
+
+        .publications__colmn {
+            width: 100%;
+            margin-bottom: 30px;
+            background-color: #FFFFFF;
+            border-radius: 8px 8px 0px 0px;
+
+            .publications__image {
+                height: 200px;
+                width: 100%;
+                background-position: center;
+                background-size: cover;
+                border-radius: 8px 8px 0px 0px;
+
+            }
+
+            .publications__image1 {
+                background-image: url(../img/Publications/Publication-1.jpg);
+            }
+            .publications__image2 {
+                background-image: url(../img/Publications/Publication-2.jpg);
+            }
+            .publications__image3 {
+                background-image: url(../img/Publications/Publication-3.jpg);
+            }
+
+            .publications__info {
+                padding: 30px;
+
+                &>a:hover {
+                    color: #F0145A;
+                }  
+
+                .publications__date {
+                    font-size: 12px;
+                    font-weight: 700;
+                    color: #B3B3BA;
+                    margin: 15px 0;
+                }
+                .publications__line {
+                    width: 100%;
+                    height: 4px;
+                    background: #E6E6F0;
+                    margin-bottom: 15px;
+                }
+                .publications__text {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+            }
+        }
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .publications__colmn1 {
+                margin-bottom: 30px;
+                flex: 1 1 45%;
+            }
+
+            .publications__colmn2 {
+                margin-bottom: 30px;
+                flex: 1 1 45%;
+            }
+
+            .publications__colmn3 {
+                width: 100%;
+            }
+        } 
+        @media (min-width: 1024px) {
+            .publications__colmn {
+                margin-bottom: 0;
+            }
+        }
+    } 
+    @media (max-width: 1023px) {
+        .publications__colmns {
+            background-color: #F5F5FA;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }    
+    }  
+}
+@media (min-width: 768px) {
+    .publications {
+        padding: 30px 45px 0 45px;
+
+        .publications__colmn {
+            margin: 0 15px;
+        }
+    }
+}
+@media (min-width: 1920px) {
+    .publications {
+        padding: 30px 145px;
+    }
+} 

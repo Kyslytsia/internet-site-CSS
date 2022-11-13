@@ -1,0 +1,182 @@
+.background {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    border-radius: 0px 0px 12px 12px;
+
+    .active {
+        color: #F0145A;
+    }
+
+    .active::after {
+        width: 100%;
+    }
+    
+    .active::after {
+        background-color: #F0145A;
+    }
+
+    .burger>svg>path {
+        stroke: white;
+    }
+
+    .servises {
+        font-family: Montserrat;
+    
+        .servises__title {
+            margin: 40px 0 60px 30px;
+        }
+        @media (max-width: 767px) {
+            .servises__title {
+                font-size: 30px;
+            }
+        }
+        @media (min-width: 768px) and (max-width:1023px) {
+            .servises__title {
+                margin: 59px 0 60px 30px;
+            }
+        }
+        @media (min-width: 1024px) {
+            .servises__title {
+                margin: 0 0 60px 30px;
+            }
+        }
+    
+        .services__columns {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            color: white;
+    
+            .services__column {
+                line-height: 26px;
+                padding: 0 30px 30px 30px;
+                margin-bottom: 30px;
+    
+                &>object {
+                    margin-bottom: 30px;
+                }
+
+                &>p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    margin-top: 15px;
+                }
+    
+                &>a {
+                    line-height: 27px;
+                    text-decoration: none;
+                    margin-bottom: 15px;
+                }
+
+                &>a:hover {
+                    color: #F0145A;
+                }
+            }
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .servises {
+            padding: 0 30px;
+
+            .services__column {
+                width: 294px;
+                flex: 1 1 40%;
+                padding: 0 30px;
+                margin-bottom: 60px;
+            }
+        }
+    }
+    @media (min-width: 1024px) {
+        .servises {
+            padding: 0 30px;
+
+            .services__column {
+                flex: 1 1 25%;
+            }
+        }
+    }
+    @media (min-width: 1920px) {
+        .servises {
+            padding: 0 130px;
+        }
+    }
+}
+
+
+.background-line>p {
+    text-transform: uppercase;
+    color: #323264;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Montserrat;
+    text-align: center;
+    padding: 60px 0 30px 0;
+}
+
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+
+    .partners__block {      
+        width: 25%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hillel {background-color: #1C4280;}
+    .wannabiz {background-color: #143646;}
+    .tapgerine {background-color: #F48B30}
+    .look {background-color: #9E4DC3;}
+    .orangear {background-color: #FD9339;}
+    .adtallige {background-color: #E2E2E4}
+    .clickky {background-color: #C71C36;}
+    .ecoleasing {background: #DCF3F9;}
+    .infratec {background-color: #EAEAEA;}
+    .citypark {background-color: #282240;}
+    .artprint {background-color: #1D4568;}
+    .ultimatecard {background-color: #000000;}
+
+    @media (max-width: 767px) {
+        .partners__block{
+            width: 100%;
+        }
+        .adtallige {display: none;}
+        .clickky {display: none;}
+        .ecoleasing {display: none;}
+        .infratec {display: none;}
+        .citypark {display: none;}
+        .artprint {display: none;}
+        .ultimatecard {display: none;}
+    }
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .partners__block {
+            flex: 33.333%;
+        }
+    }
+}
+@media (min-width: 1920px) {
+    .partners {
+        padding: 0 100px;
+        margin-bottom: 60px;
+
+        .hillel {
+            border-radius: 12px 0 0 0;
+        }
+        .look {
+            border-radius: 0 12px 0 0;
+        }
+        .infratec {
+            border-radius: 0 0 0 12px;
+        } 
+        .ultimatecard {
+            border-radius: 0 0 12px 0;
+        }
+    }
+}
+
+.footer-768, .footer-mobile {
+    padding-top: 30px;
+}

@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat/Montserrat-Light.woff2");
+    src: url("../fonts/Montserrat/Montserrat-Light.woff");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat/Montserrat-Regular.woff2");
+    src: url("../fonts/Montserrat/Montserrat-Regular.woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat/Montserrat-Bold.woff2");
+    src: url("../fonts/Montserrat/Montserrat-Bold.woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat-bold-italic;
+    src: url("../fonts/Montserrat/Montserrat-Bold-italic.woff2");
+    src: url("../fonts/Montserrat/Montserrat-Bold-italic.woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("../fonts/Ubuntu/Ubuntu-Light.woff2");
+    src: url("../fonts/Ubuntu/Ubuntu-Light.woff");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.woff2");
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url("../fonts/Ubuntu/Ubuntu-Bold.woff2");
+    src: url("../fonts/Ubuntu/Ubuntu-Bold.woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto/Roboto-Light.woff2");
+    src: url("../fonts/Roboto/Roboto-Light.woff");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto/Roboto-Regular.woff2");
+    src: url("../fonts/Roboto/Roboto-Regular.woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto/Roboto-Bold.woff2");
+    src: url("../fonts/Roboto/Roboto-Bold.woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/Opensans/OpenSans-Light.woff2");
+    src: url("../fonts/Opensans/OpenSans-Light.woff");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/Opensans/OpenSans-Regular.woff2");
+    src: url("../fonts/Opensans/OpenSans-Regular.woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OpenSans-italic;
+    src: url("../fonts/OpenSans/OpenSans-Italic.woff2");
+    src: url("../fonts/OpenSans/OpenSans-Italic.woff");
+    font-weight: 400;
+    font-style: normal;
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/Opensans/OpenSans-Bold.woff2");
+    src: url("../fonts/Opensans/OpenSans-Bold.woff");
+    font-weight: 700;
+    font-style: normal;
+}
